@@ -2,12 +2,55 @@ html<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Academic Deadline Assessment Planner</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Academic Deadline Assessment Planner</h1>
-  <p>Group 06 Project - Work in progress</p>
+
+  <header>
+    <h1>Academic Deadline Assessment Planner</h1>
+    <p>Group 06 - ITM 7131 - Never miss a deadline again!</p>
+    <nav>
+      <a href="#add-deadline">Add Deadline</a>
+      <a href="#my-deadlines">My Deadlines</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="add-deadline">
+      <h2>Add New Deadline</h2>
+      <form id="deadline-form">
+        <label>Assessment Name:</label>
+        <input type="text" id="task-name" placeholder="e.g. ITM 7131 Assignment" required>
+
+        <label>Course:</label>
+        <input type="text" id="course" placeholder="e.g. ITM 7131">
+
+        <label>Due Date:</label>
+        <input type="date" id="due-date" required>
+
+        <button type="submit">Add Deadline</button>
+      </form>
+    </section>
+
+    <section id="my-deadlines">
+      <h2>My Deadlines</h2>
+      <p id="empty-message">No deadlines yet. Add one above!</p>
+      <ul id="deadline-list"></ul>
+    </section>
+
+    <section id="about">
+      <h2>About This Planner</h2>
+      <p>This planner helps students track assessments, see days left, and plan their study time.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Group 06 - Given, Mercy, Richard, Ivan</p>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
