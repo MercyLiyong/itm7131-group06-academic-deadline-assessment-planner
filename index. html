@@ -1,0 +1,13 @@
+html<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Academic Deadline Assessment Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Academic Deadline Assessment Planner</h1>
+  <p>Group 06 Project - Work in progress</p>
+  <script src="script.js"></script>
+</body>
+</html>
